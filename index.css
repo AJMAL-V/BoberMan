@@ -1,4 +1,42 @@
 body{
-    background-color: lightgreen;
+    background-color: rgb(11, 12, 11);
     text-align: center;
+    background-image: url(https://user-images.githubusercontent.com/2433219/94984421-031cdd80-0509-11eb-86e1-a264937d5c73.png);
+    background-size: cover;
+}
+.bom{
+    height: 40px;
+}
+.allcol{
+    display:inline-block;
+    margin: 0;
+    height:40px;
+        width:40px;
+        border:1px solid black;
+        text-align:center;
+        vertical-align:center;
+        background-color:#464643;
+        box-shadow: 1px 1px 1px black;
+        cursor: pointer;
+}
+#gamepoint{
+   color: #ff0f0f; 
+}
+.button{
+    cursor: pointer;
+    color: #fff;
+    background-color:#6e6e6e;
+   padding-top: 0.5rem;
+   padding-left: 1rem;
+   padding-bottom: 0.5rem;
+   padding-right: 1rem;
+    border: none;
+    box-shadow: 2px 2px 1px rgb(49, 48, 48);
+   
+    
+}
+.button:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 2px 2px 1px rgb(187, 12, 12);
 }
