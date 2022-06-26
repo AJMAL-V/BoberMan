@@ -16,6 +16,7 @@ function remove(){
 function addgrid(){
     let gamegoing=true;
     const app=document.getElementById("app");
+    const mark=document.getElementById("mark");
     const gamemark=document.createElement("h1");
     gamemark.id="gamepoint";
     gamemark.innerHTML="GamePoint";
@@ -23,17 +24,11 @@ function addgrid(){
     for(let i=0;i<9;i++){
         const row=document.createElement("div");
         row.className="bom"
-        row.style.height="60px"
         for(let j=0;j<9;j++){
             const index=i*9+j;
             const column=document.createElement("div");
             column.className="allcol"
-            column.style.display="inline-block";
-            column.style.height="60px";
-            column.style.width="60px";
-            column.style.border="1px solid black";
-            column.style.textAlign='center';
-            column.style.verticalAlign="center";
+        
             column.setAttribute("index",index);
             
             column.addEventListener("click",function(){
